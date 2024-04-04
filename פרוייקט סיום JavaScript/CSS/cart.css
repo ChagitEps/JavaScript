@@ -1,0 +1,18 @@
+.add
+{
+  
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.1);
+  background-size: cover;
+  width:200px;
+  height:100px;
+  border-radius: 5px;
+   margin: 50px; 
+    float: right; 
+     display: flex; 
+  
+    flex-wrap: wrap;
+}
+.picc{
+  justify-content: center;
+width: 100%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/PageHome.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <script defer src="../JS/pagepic.js"></script>
+    <script defer src="../JS/cart.js"></script>
+</head>
+<body onload="display1()">
+    
+   <header id="head">
+    <tr> 
+        <th><label id="lbl">ראשון-חמישי: 9:00-17:30</label></th>
+        <th><label id="lbl">054-4909450</label></th>
+    </tr>
+   </header>
+   <nav class="navbar navbar-expand-md bg-light navbar-light" style="background-color: white">
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../HTML/PageHome.html" style="color: rgb(4, 27, 96) !important; padding-right: 40px; padding-left: 40px;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../HTML/cart.html" style="color: rgb(4, 27, 96) !important; padding-right: 40px; padding-left: 40px;" onclick="cart()">Cart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../HTML/logIn.html" style="color: rgb(4, 27, 96) !important; padding-right: 40px; padding-left: 40px;">Connect</a>
+        </li> 
+      </ul>
+    </div>  
+    <img id="lo" src="../IMG/לוגו.jpg"  alt="לוגו"  height="100" width="170">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+<div id="p"></div>
+  <div class="navbar">
+    
+    <div class="cart">
+        <i class="bi bi-cart2"></i>
+     
+    </div>
+</div>
+
+</body>
+</html>
